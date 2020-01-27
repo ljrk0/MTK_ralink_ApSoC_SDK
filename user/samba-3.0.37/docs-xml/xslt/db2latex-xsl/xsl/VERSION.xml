@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<!--############################################################################# 
+ |	$Id: //WIFI_SOC/release/SDK_4_1_0_0/source/user/samba-3.0.37/docs-xml/xslt/db2latex-xsl/xsl/VERSION.xml#1 $
+ |- #############################################################################
+ |	$Author: bruce.chang $
+ |														
+ |   PURPOSE:
+ + ############################################################################## -->
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version='1.0'>
+<xsl:variable name="VERSION">0.8pre1</xsl:variable>
+<xsl:variable name="LASTRELEASE">0.7</xsl:variable>
+<xsl:variable name="TAG">
+  <xsl:variable name="RCSTAG" select="substring-before(substring-after('$Name: DB2LATEX_0_8PRE1 $',concat('$','Name: ')),'$')"/>
+  <xsl:choose>
+    <xsl:when test="normalize-space($RCSTAG)=''">HEAD</xsl:when>
+    <xsl:otherwise><xsl:value-of select="$RCSTAG" /></xsl:otherwise>
+  </xsl:choose>
+</xsl:variable>
+<xsl:variable name="CVSVERSION">$Id: //WIFI_SOC/release/SDK_4_1_0_0/source/user/samba-3.0.37/docs-xml/xslt/db2latex-xsl/xsl/VERSION.xml#1 $</xsl:variable>
+
+
+</xsl:stylesheet>
+

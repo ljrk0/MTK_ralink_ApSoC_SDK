@@ -1,0 +1,13 @@
+;
+; $Id: //WIFI_SOC/release/SDK_4_1_0_0/source/lib/libvorbis/win32/vorbisenc.def#1 $
+;
+LIBRARY
+
+EXPORTS
+vorbis_encode_init
+vorbis_encode_setup_managed
+vorbis_encode_setup_vbr
+vorbis_encode_init_vbr
+vorbis_encode_setup_init
+vorbis_encode_ctl
+
